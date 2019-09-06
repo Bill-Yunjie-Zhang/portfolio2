@@ -1,0 +1,87 @@
+.color-292929{
+	background-color: #292929
+}
+
+.font-color-5a5a5a{
+	color: #5a5a5a
+}
+
+.font-color-e1e1e1{
+	color: #e1e1e1
+}
+
+.font-color-d1b0b2{
+	color: #d1b0b2
+}
+ 
+.font-color-841518{
+	color: #841518
+}
+
+.font30px{
+	font-size: 30px
+}
+
+a,
+a:focus,
+a:hover {
+  color: #5a5a5a;
+}
+
+.navFont{
+	font-size: 30px;
+	margin-top: 40px;
+	text-align: center
+}
+
+.header-width{
+  max-width: 700px;
+}
+
+.margin{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#wrapper2{
+	background-color:#f0f0f0;
+}
+
+#wrapper3{
+	background-color: #841518;
+	color: #f0f0f0
+}
+
+#wrapper4{
+	background-color: #f0f0f0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #2e2e2e
+}
+
+#wrapper5{
+	background-color: #d1d1d1;
+	padding: 40px;
+	color: #2e2e2e
+}
+
+h1{
+	font-size: 60px
+}
+
+.noPadding{
+	padding: 0px
+}
+
+#marketing{
+	transform: rotate(90deg)
+}
+
+
+.padding{
+	padding:40px
+}
+
+.menu-link:active{
+	background-color: #7b7b7b
+}

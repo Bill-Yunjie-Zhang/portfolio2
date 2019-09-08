@@ -18,6 +18,3 @@ new fullpage('#fullpage', {
     sectionSelector: '.section',
     slideSelector: '.slide',
 });
-
-//methods
-// fullpage_api.setAllowScrolling(true, down, right); 

@@ -6,6 +6,10 @@
 	background-color: #841518
 }
 
+.font-color-292929{
+	color: #292929
+}
+
 .font-color-5a5a5a{
 	color: #5a5a5a
 }
@@ -74,6 +78,11 @@ a:hover {
 #wrapper5{
 	background-color: #d1d1d1;
 	color: #2e2e2e
+}
+
+#wrapper6{
+	background-color: #292929;
+	color: #e1e1e1
 }
 
 h1{

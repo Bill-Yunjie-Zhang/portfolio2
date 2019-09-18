@@ -61,6 +61,10 @@ a:hover {
 	margin-bottom: 100px;
 }
 
+#wrapper1{
+	vertical-align: top
+}
+
 #wrapper2{
 	background-color:#f0f0f0;
 }
@@ -83,6 +87,10 @@ a:hover {
 #wrapper6{
 	background-color: #292929;
 	color: #e1e1e1
+}
+
+#wrapper7{
+	background-color: #3f3f3f
 }
 
 h1{
@@ -108,12 +116,17 @@ h1{
 
 .minimap {
 	opacity: 0.3;
+	float: left;
+	height: 16.8px
 }
 
 .minimap:hover {
 	opacity: 1;
 }
 
+.map1-h {
+	color: #e1e1e1
+}
 /* img[data-action="zoom"] {
 	cursor: pointer;
 	cursor: -webkit-zoom-in;

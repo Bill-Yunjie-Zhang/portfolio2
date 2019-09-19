@@ -8,8 +8,8 @@ minimap:
     *the map ==> when hover set a trailer for each page
 
 the first page:
-    logo ==> outdated
-    navbar buttons ==> useless & looks outdated
+    *logo ==> outdated
+    *navbar buttons ==> useless & looks outdated
     feature needs to be more impressive
     shows directly(photos or picture to be exact) and guide reader to think who you are
 

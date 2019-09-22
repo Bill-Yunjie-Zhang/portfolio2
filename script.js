@@ -176,13 +176,6 @@ $("#map5-3").hover(
 )
 $("#map5-4").hover(
     function(){
-        $("#mapTrailer").append($("<h2>Electrical Engineering</h2>"));
-    }, function(){
-        $("#mapTrailer").find("h2").last().remove();
-    }
-)
-$("#map5-5").hover(
-    function(){
         $("#mapTrailer").append($("<h2>Math Teaching</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();

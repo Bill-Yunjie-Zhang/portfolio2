@@ -6,7 +6,7 @@ new fullpage('#fullpage', {
     scrollOverflow: true,
 
 	anchors:['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
-    navigationTooltips: ['Home', 'Team Player & Leader', 'Intern At Zhxi', 'To My Community', 'Devotion in Education', 'Contact'],
+    navigationTooltips: ['Bill Zhang', 'Team Player & Leader', 'Intern At Zhxi', 'To My Community', 'Devotion in Education', 'Contact'],
     css3: true,
 	navigation: true,
     slidesNavigation: true,
@@ -20,15 +20,31 @@ new fullpage('#fullpage', {
     verticalCentered: true,
 });
 
+if(window.location.href==="http://127.0.0.1:5501/portfolio.html"){
+    setTimeout(function(){
+        $("#mapTrailer").append($("<h2 style='font-family: Arial, Helvetica, sans-serif'>use the map to select where you wanna go! <img src='rightward.svg' height='50px' style='margin-left: 20px'><br>or</h2><h2 style='font-family: Arial, Helvetica, sans-serif'>scroll down <img class='f' src='downward.svg' height='40px'> or right <img class='f' src='rightward.svg' height='52px'> to browse</h2>"));
+        $('#map').addClass('animate-flicker')
+        $('#mapTrailer .f').addClass('animate-flicker')
+    }, 1500)
+    setTimeout(function(){
+        $('#map').removeClass('animate-flicker')
+    }, 9000);
+    setTimeout(function(){
+        $('#mapTrailer').find('h2').remove();
+    }, 12000)
+}
+
 $("#map1").hover(
     function(){
-        $("#mapTrailer").append($("<h2>Home</h2>"));
+        $("#mapTrailer").find("h2").last().remove();
+        $("#mapTrailer").append($("<h2>Bill Zhang</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
     }
 )
 $("#map2").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($('<h2>"Team Player & Leader"</h2>'));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -36,6 +52,7 @@ $("#map2").hover(
 )
 $("#map2-1").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Geekton</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -43,6 +60,7 @@ $("#map2-1").hover(
 )
 $("#map2-2").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>C.A.T.E.</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -50,6 +68,7 @@ $("#map2-2").hover(
 )
 $("#map2-3").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>S.A.C</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -57,6 +76,7 @@ $("#map2-3").hover(
 )
 $("#map2-4").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>C.D.D.C.</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -64,6 +84,7 @@ $("#map2-4").hover(
 )
 $("#map3").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($('<h2>"Intern at ZhongXi"</h2>'));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -71,6 +92,7 @@ $("#map3").hover(
 )
 $("#map3-1").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>B.N.V.S.</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -78,6 +100,7 @@ $("#map3-1").hover(
 )
 $("#map3-2").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Leman</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -85,6 +108,7 @@ $("#map3-2").hover(
 )
 $("#map3-3").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Teacher's Assistant</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -92,6 +116,7 @@ $("#map3-3").hover(
 )
 $("#map3-4").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>My Internship</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -99,13 +124,15 @@ $("#map3-4").hover(
 )
 $("#map3-5").hover(
     function(){
-        $("#mapTrailer").append($("<h2>Participation of CoHack</h2>"));
+        $("#mapTrailer").find("h2").last().remove();
+        $("#mapTrailer").append($("<h2>CoHack</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
     }
 )
 $("#map3-6").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Zhxi Logo</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -113,6 +140,7 @@ $("#map3-6").hover(
 )
 $("#map4").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($('<h2>"Giving back to my Community"</h2>'));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -120,6 +148,7 @@ $("#map4").hover(
 )
 $("#map4-1").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Weekly Schedule</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -127,6 +156,7 @@ $("#map4-1").hover(
 )
 $("#map4-2").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Prep Talks</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -134,6 +164,7 @@ $("#map4-2").hover(
 )
 $("#map4-3").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($('<h2>Foster Interests in Go</h2>'));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -141,6 +172,7 @@ $("#map4-3").hover(
 )
 $("#map4-4").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>The Disaster</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -148,6 +180,7 @@ $("#map4-4").hover(
 )
 $("#map5").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($('<h2>"Devotion in Education"</h2>'));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -155,6 +188,7 @@ $("#map5").hover(
 )
 $("#map5-1").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>The Origin</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -162,6 +196,7 @@ $("#map5-1").hover(
 )
 $("#map5-2").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>The Beginnin</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -169,6 +204,7 @@ $("#map5-2").hover(
 )
 $("#map5-3").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>English Teaching</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -176,6 +212,7 @@ $("#map5-3").hover(
 )
 $("#map5-4").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Math Teaching</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -183,6 +220,7 @@ $("#map5-4").hover(
 )
 $("#map6").hover(
     function(){
+        $("#mapTrailer").find("h2").last().remove();
         $("#mapTrailer").append($("<h2>Contact & Github</h2>"));
     }, function(){
         $("#mapTrailer").find("h2").last().remove();
@@ -219,3 +257,4 @@ var initParticleSlider = function(){
 (window.addEventListener
   ? window.addEventListener('load', initParticleSlider, false)
   : window.onload = initParticleSlider);
+
